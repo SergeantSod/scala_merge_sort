@@ -1,10 +1,11 @@
 package simple_example
 
+import org.scalactic.TypeCheckedTripleEquals
 import simple_example.MergeSort.sort
 import org.scalatest._
 import prop._
 
-class MergeSortTest extends FunSpec with Matchers with PropertyChecks {
+class MergeSortTest extends FunSpec with Matchers with PropertyChecks with TypeCheckedTripleEquals {
 
   describe("Merge sort"){
 
