@@ -3,4 +3,4 @@ An implementation of merge sort in Scala as an exercise
 
 * Optimized for clarity
 * Favouring recursion over iteration
-* Performing sort in-place with the help of a buffer array
+* Performing merge without excessive array copying with the help of a secondary buffer array
